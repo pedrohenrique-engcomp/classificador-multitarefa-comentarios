@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+.DS_Store
+
+# Artefatos de treino nao versionados
+*.npy
+*.pkl
+*.pt
+*.bin
+checkpoints/
+
+# Base anotada do projeto fica versionada; demais CSVs ignorados
+*.csv
+!dados/*.csv
